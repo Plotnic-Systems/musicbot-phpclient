@@ -1,0 +1,45 @@
+{
+  "name": "edvnetwork_group/musicbot-phpclient",
+  "description": "A full-featured implementation of the Sinusbot API",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "keywords": [
+    "Reselling",
+    "Hosting",
+    "Musikbot",
+    "PHP",
+    "API",
+    "Sinusbot"
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Danilo Staender",
+      "email": "edvnetwork.group@icloud.com",
+      "homepage": "https://www.edv-network.group"
+    },
+    {
+      "name": "Jan Hill",
+      "email": "privat@janhill.email",
+      "homepage": "https://www.server-verstehen.de/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/edvnetwork/edvnetworkgroup/musicbot-phpclient/issues",
+    "source": "https://github.com/edvnetwork/edvnetworkgroup/musicbot-phpclient"
+  },
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json/ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EDV_Musicbot\\": "src/"
+    }
+  }
+}
